@@ -9,8 +9,10 @@ npm-debug.*
 *.orig.*
 web-build/
 
-package-lock.json
-node_modules
-
 # macOS
 .DS_Store
+
+*/node_modules/**/*
+firebase-debug.log
+ui-debug.log
+.runtimeconfig.json
